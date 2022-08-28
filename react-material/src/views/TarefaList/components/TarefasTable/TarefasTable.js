@@ -64,6 +64,7 @@ const TarefasTable = props => {
               </TableHead>
               <TableBody>
                   {
+                  
                     tarefas.map(tarefa=>{
                       return (
                         <TableRow key={tarefa.id}>
